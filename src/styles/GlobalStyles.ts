@@ -20,6 +20,7 @@ export const GlobalStyles = createGlobalStyle`
         background-color: #B8B8AA;
         font-family: Arial, Helvetica, sans-serif;
         //#B8B8AA
+
     }
     
 `

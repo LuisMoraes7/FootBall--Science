@@ -1,6 +1,7 @@
 import { Header } from "./Components/Header/header";
 import { BodyTeam } from "./Components/BodyTeams/bodyteam";
 import { GlobalStyles } from './styles/GlobalStyles';
+import { Footer } from "./Components/Footer/footer";
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
       
       <Header></Header>
       <BodyTeam ></BodyTeam>
-      
+      <Footer></Footer>
     </div>
   );
 }
