@@ -7,7 +7,7 @@ import { MagnifyingGlass } from 'react-loader-spinner'
 export const BodyTeam: React.FC = () => {
     const [teams, setTeam] = useState([])
     const fetchTeams = async () => {
-        //pegando os times na minha api...
+        //pegando os times...
         try{
             const response = await fetch('https://luismoraes7.github.io/Testes/teamsPL.json')
             const data = await response.json()
@@ -38,7 +38,7 @@ export const BodyTeam: React.FC = () => {
 
 
     const closeButton = () => {
-        //função vai setar o nome do time como uma string vazia, fazendo com que busque na API esse valor, que não sera encontrado, portanto a 'aba' do time sera fechada
+        //função vai setar o nome do time como uma string vazia, fazendo com que busque na "API" esse valor, que não sera encontrado, portanto a 'aba' do time sera fechada
         setTeamName('')
         //tornando a presença do botao como falsa.
         setshowButton(!showbutton)
