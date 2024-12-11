@@ -9,7 +9,7 @@ export const BodyTeam: React.FC = () => {
     const fetchTeams = async () => {
         //pegando os times...
         try{
-            const response = await fetch('https://luismoraes7.github.io/Testes/teamsPL.json')
+            const response = await fetch('https://luismoraes7.github.io/myself/teamsPL.json')
             const data = await response.json()
             //atribuindo a const teams a resposta json..
             setTeam(data)
