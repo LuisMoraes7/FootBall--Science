@@ -19,7 +19,7 @@ export const PlayerOrganization: React.FC<DataProps> = ({ teamName }) => {
     
     const fetchPlayers = async () => {
         try{
-            const response = await fetch('https://luismoraes7.github.io/Testes/playersPL.json');
+            const response = await fetch('https://luismoraes7.github.io/myself/playersPL.json');
             const data = await response.json();
             setPlayers(data)
         } catch (error) {
